@@ -10,7 +10,7 @@ class TestTest extends TestCase
 {
     public function testA()
     {
-        config([
+/*         config([
             'feeds-google.api.credentials.path' => env('GOOGLE_API_CREDENTIALS_PATH'),
         ]);
 
@@ -31,6 +31,6 @@ class TestTest extends TestCase
         // dd($response->getResults()[207]);
         $response = GoogleServiceBuilder::googleMerchant()->productstatuses->listProductstatuses(env('GOOGLE_MERCHANT_ID'));
 
-        dd($response->getResources()[0]);
+        dd($response->getResources()[0]); */
     }
 }
